@@ -1,14 +1,16 @@
-import React, { PropTypes } from 'react';
+import React, { Component, PropTypes } from 'react';
 
-export default class MainView extends React.Component {
+export default class MainView extends Component {
   static propTypes = {
     children: PropTypes.object
   };
+  
 
   render() {
+    console.log(this.props)
     return (
       <div id="main-view">
-        <h1>Todos</h1>
+        <h1>Todos: main-view</h1>
 
         <hr />
 

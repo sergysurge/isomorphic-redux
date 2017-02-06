@@ -5,7 +5,6 @@ export default function promiseMiddleware() {
     if (!promise) return next(action);
 
     const SUCCESS = type;
-
     const REQUEST = type + '_REQUEST';
     const FAILURE = type + '_FAILURE';
 

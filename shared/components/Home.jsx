@@ -17,7 +17,6 @@ class Home extends Component {
 
   render() {
     const { todos, dispatch } = this.props;
-
     return (
       <div id="todo-list">
         <TodosView todos={todos}
